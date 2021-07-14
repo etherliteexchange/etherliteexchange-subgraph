@@ -6,7 +6,7 @@ schema:
 dataSources:
   - kind: ethereum/contract
     name: Factory
-    network: mainnet
+    network: etherlite
     source:
       address: '0xEc80b270D493Ba70B6359b9CE041B0BFBA316D61'
       abi: Factory
@@ -34,7 +34,7 @@ dataSources:
 templates:
   - kind: ethereum/contract
     name: Pair
-    network: rinkeby
+    network: etherlite
     source:
       abi: Pair
     mapping:
